@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Project: Recipe book</title>
+    <!--
+Contains at least three recipes.
+Has three internal links in the table of contents that correctly jump to the specified recipe below.
+Has a list for each recipe.
+Has a table with at least 2 rows for each recipe.
+Has steps described in paragraphs and/or lists.
+Uses at least 2 CSS element selectors.
+Uses at least 1 CSS id or class selector.
+    -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+        }
+
+        h1, h2 {
+            color: darkslategray;
+        }
+
+        .recipe {
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            background-color: white;
+        }
+
+        th {
+            background-color: wheat;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>BratishkaErik's Recipe Book</h1>
+
+<h2 id="toc">Contents:</h2>
+<ol>
+    <li><a href="#toc">Contents</a></li>
+    <li><a href="#recipe1">Recipe #1: Spaghett</a></li>
+    <li><a href="#recipe2">Recipe #2: Boiled Milk</a></li>
+    <li><a href="#recipe3">Recipe #2: Web Dev</a></li>
+    <li><a href="#sources">Sources</a></li>
+</ol>
+
+<section class="recipe">
+    <h2 id="recipe1">Recipe #1: Spaghetti</h2>
+    <ul>
+        <li>Time: 50 minutes</li>
+        <li>Serves: _</li>
+    </ul>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>QuanHow muchtity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Spaghetti</td>
+            <td>400 kg</td>
+        </tr>
+        <tr>
+            <td>Water</td>
+            <td>1 m^3</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <p><strong>Step 1:</strong> Do something.</p>
+</section>
+
+<section class="recipe">
+    <h2 id="recipe2">Recipe #2: Boiked Milk</h2>
+    <ul>
+        <li>Time: 10 minutes</li>
+        <li>Serves: _</li>
+    </ul>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>How much</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Heat</td>
+            <td>1 Sun</td>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>1 kg of dry powder</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <p><strong>Step 1:</strong> Do something.</p>
+</section>
+
+<section class="recipe">
+    <h2 id="recipe3">Recipe #3: Web Dev</h2>
+    <ul>
+        <li>Time: 999 minutes</li>
+        <li>Serves: infinite amount of people</li>
+    </ul>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>How much</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>PC</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Internet connection</td>
+            <td>1 TiB/s</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <p><strong>Step 1:</strong> Do something.</p>
+</section>
+
+<h2 id="sources"><em>Source: <a href="https://1000.menu/">1000.menu</a> and dreams</em></h2>
+
+</body>
+</html>

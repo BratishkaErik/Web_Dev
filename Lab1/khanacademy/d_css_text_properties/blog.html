@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--
+Must contain at least two blog posts.
+Must have a table of contents that links to the posts.
+Must have at least 3 CSS rules.
+Must use at least 4 different CSS properties that start with "font-".
+Must not have any errors or bad practices.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project: Blog</title>
+    <style>
+        .post {
+            font-family: cursive;
+            font-weight: bold;
+            text-decoration: underline;
+            text-align: center;
+
+            font-stretch: extra-expanded;
+        }
+
+        .toc-entry {
+            text-transform: none;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-style: italic;
+            font-size: 40px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+<h1>BratishkaErik's blog</h1>
+
+<h3>Contents</h3>
+<ul>
+    <li><a href="#first" class="toc-entry">First post!</a></li>
+    <li><a href="#second" class="toc-entry">Second post...</a></li>
+</ul>
+
+<h2 class="post" id="first">First post</h2>
+<h6>Posted on some date in some year</h6>
+
+<p>Something excited happened.</p>
+
+<h2 class="post" id="second">Second post</h2>
+<h6>Posted on some date in some year</h6>
+
+<p>Something excited happened.</p>
+
+</body>
+</html>
