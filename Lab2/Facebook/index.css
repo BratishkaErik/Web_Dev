@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+
+    flex-direction: column;
+
+    & main {
+        background-color: whitesmoke;
+
+        & #logo {
+            & figcaption {
+                font-size: 2em;
+            }
+        }
+
+        & #auth-form {
+            & form {
+                background-color: white;
+
+                border-radius: 5px;
+                box-shadow: 10px 5px 5px darkgray;
+            }
+        }
+    }
+
+    & footer {
+        background-color: white;
+
+        color: dimgray;
+
+        & ul {
+            list-style: none;
+        }
+    }
+}
