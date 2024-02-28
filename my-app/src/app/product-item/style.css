@@ -1,0 +1,8 @@
+#select-category {
+    display: inline;
+}
+
+.products {
+    display: flex;
+    flex-flow: row wrap;
+}

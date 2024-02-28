@@ -1,13 +1,13 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
-import {Product} from '../products';
+import {Product} from "../product-item/component";
 
 @Component({
     selector: 'app-product-alerts',
-    templateUrl: './product-alerts.component.html',
-    styleUrls: ['./product-alerts.component.css']
+    templateUrl: './template.html',
+    styleUrls: ['./style.css']
 })
 
 export class ProductAlertsComponent {
-    @Input() product: Product | undefined;
+    @Input() product!: Product;
     @Output() notify = new EventEmitter();
 }
